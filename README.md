@@ -1,7 +1,5 @@
 # Minerva-for-QL
 
-Minerva ROM for Sinclair QL
-
 A compact ROM for Sinclair QL.
 
 Use a 27c512 to load Minerva firmware and update your computer.
