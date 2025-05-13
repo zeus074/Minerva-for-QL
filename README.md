@@ -6,6 +6,10 @@ Use a 27c512 to load Minerva firmware and update your computer.
 
 The Minerva ROM is also useful for diagnosing RAM problems.
 
+Update with two version SMD & THT
+
+SMD:
+
 ![alt text](https://github.com/zeus074/Minerva-for-QL/blob/main/Images/minerva.jpg)
 
 **Components:**
@@ -22,9 +26,28 @@ J1		PIN HEADER or 1544210-2 (SIL CONTACT Y1 THROUGH HOLE)
 
 ![alt text](https://github.com/zeus074/Minerva-for-QL/blob/main/Images/minerva_top.jpg)
 
+THT:
+
+![alt text](https://github.com/zeus074/Minerva-for-QL/blob/main/Images/Minerva_THT.jpg)
+
+**Components:**
+
+U1		27C512
+
+R1		10Kohm
+
+R2		1Kohm 
+
+Q1		2N3904
+
+J1		PIN HEADER or 1544210-2 (SIL CONTACT Y1 THROUGH HOLE)
+
+![alt text](https://github.com/zeus074/Minerva-for-QL/blob/main/Images/Minerva_THT_Bottom.jpg)
+
 **Directory**
 
 Gerber : https://www.pcbway.com/project/shareproject/Minerva_ROM_fo_Sinclair_QL_644a941d.html
+Gerber THT : https://www.pcbway.com/project/shareproject/Minerva_ROM_fo_Sinclair_QL_THT_Version_e9b613d4.html
 
 IMG : Some pictures
 
@@ -32,7 +55,7 @@ Schematic: project outline
 
 **How program**
 
-Program the 27c512 memory before soldering it to the pcb, example with a plcc32-dip adapter and the TL866II.
+Program the 27C512 memory before soldering it to the pcb, example with a plcc32-dip adapter and the TL866II, THT version not required the adapter.
 
 The Minerva firmware can be found here:
 
