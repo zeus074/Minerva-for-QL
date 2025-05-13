@@ -47,6 +47,7 @@ J1		PIN HEADER or 1544210-2 (SIL CONTACT Y1 THROUGH HOLE)
 **Directory**
 
 Gerber : https://www.pcbway.com/project/shareproject/Minerva_ROM_fo_Sinclair_QL_644a941d.html
+
 Gerber THT : https://www.pcbway.com/project/shareproject/Minerva_ROM_fo_Sinclair_QL_THT_Version_e9b613d4.html
 
 IMG : Some pictures
